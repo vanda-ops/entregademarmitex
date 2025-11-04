@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Restaurante Sabiá — Comida caseira em Tocantins, MG</title>
+  <meta name="description" content="Restaurante Sabiá — comida caseira, almoço executivo e atendimento acolhedor. Localizado na Av. Dr. João Cataldo Pinto, 500, Imperial, Tocantins - MG." />
+  <meta name="theme-color" content="#d9480f" />
+  <style>
+    /* Simple, fast CSS para landing page de anúncio */
+    :root{--accent:#d9480f;--dark:#222;--muted:#666}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.4;margin:0;color:var(--dark)}
+    header{background:linear-gradient(90deg,rgba(217,72,15,.98),rgba(223,93,36,.9));color:#fff;padding:28px 16px}
+    .container{max-width:1100px;margin:0 auto;padding:20px}
+    .brand{display:flex;align-items:center;gap:14px}
+    .logo{width:72px;height:72px;border-radius:12px;background:rgba(255,255,255,.12);display:flex;align-items:center;justify-content:center;font-weight:700}
+    h1{font-size:1.6rem;margin:0}
+    p.lead{margin:8px 0 0;font-size:0.98rem}
+    .hero{display:flex;gap:24px;align-items:center;flex-wrap:wrap;padding:18px 0}
+    .hero .cta{display:flex;gap:12px}
+    .btn{background:var(--dark);color:#fff;padding:12px 16px;border-radius:10px;text-decoration:none;display:inline-block}
+    .btn.secondary{background:transparent;border:2px solid #fff;color:#fff}
+    .info-card{background:#fff;border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(0,0,0,.08)}
+    .grid{display:grid;grid-template-columns:1fr;gap:18px;margin-top:18px}
+    @media(min-width:820px){.hero{flex-wrap:nowrap}.grid{grid-template-columns:1fr 320px}}
+    ul.clean{padding:0;margin:0;list-style:none}
+    .feature{display:flex;gap:12px;align-items:flex-start}
+    footer{padding:18px 0;text-align:center;color:var(--muted);font-size:0.9rem}
+    .contact-row{display:flex;gap:10px;flex-wrap:wrap}
+    .badge{background:#f7f7f7;padding:6px 10px;border-radius:8px;font-weight:600}
+    form input, form textarea{width:100%;padding:10px;margin-top:8px;border-radius:8px;border:1px solid #e6e6e6}
+    form button{margin-top:10px}
+    .small{font-size:0.88rem;color:var(--muted)}
+    .legal{font-size:0.78rem;color:var(--muted);margin-top:12px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <div class="logo">RS</div>
+        <div>
+          <h1>Restaurante Sabiá</h1>
+          <p class="small">Comida caseira | Tocantins — MG</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div style="flex:1">
+        <div class="info-card">
+          <p class="lead">Almoço caseiro, pratos executivos e atendimento acolhedor desde 1992. Venha experimentar nosso cardápio ou peça para retirada.</p>
+          <div class="contact-row" style="margin-top:12px">
+            <!-- Substitua os links/telefones por números reais -->
+            <a class="btn" href="#contact">Peça agora</a>
+            <a class="btn secondary" href="#local">Como chegar</a>
+          </div>
+          <div class="legal">
+            CNPJ: 42.846.162/0001-95 • Inscrição Estadual: 690812876.00-65
+          </div>
+        </div>
+      </div>
+      <aside style="width:320px">
+        <div class="info-card">
+          <strong>Endereço</strong>
+          <div style="margin-top:8px">Av. Dr. João Cataldo Pinto, 500 — Loja 1<br>Imperial — Tocantins, MG • CEP 36512-000</div>
+          <div style="margin-top:12px">
+            <div class="badge">Aberto desde 08/07/1992</div>
+          </div>
+          <div style="margin-top:12px">
+            <!-- Substitua os valores marcados com asteriscos pelos números reais -->
+            <div class="small">Telefone: <a href="#" id="phone-link">(32) 357****-****</a></div>
+            <div class="small">E-mail: <a href="mailto:es****@****.com.br">es****@****.com.br</a></div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="grid">
+      <div>
+        <h2>Por que escolher o Sabiá?</h2>
+        <ul class="clean">
+          <li class="feature"><div style="font-weight:700">✔</div><div><strong>Comida caseira</strong><div class="small">Pratos preparados diariamente com ingredientes frescos.</div></div></li>
+          <li class="feature"><div style="font-weight:700">✔</div><div><strong>Preços justos</strong><div class="small">Opções de almoço executivo e porções para compartilhar.</div></div></li>
+          <li class="feature"><div style="font-weight:700">✔</div><div><strong>Local fácil de achar</strong><div class="small">Av. Dr. João Cataldo Pinto — ao lado de pontos de referência locais.</div></div></li>
+        </ul>
+
+        <h3 style="margin-top:18px">Cardápio destaque</h3>
+        <ul class="clean">
+          <li class="small">• Feijoada (sabores caseiros) — consulte disponibilidade</li>
+          <li class="small">• Almoço executivo — prato principal + guarnição + suco</li>
+          <li class="small">• Porções e sobremesas da casa</li>
+        </ul>
+
+        <h3 style="margin-top:18px">Depoimentos</h3>
+        <blockquote class="small">"Ótima comida e atendimento rápido — recomendo para o almoço." — Cliente</blockquote>
+      </div>
+
+      <aside>
+        <div class="info-card">
+          <h3 id="contact">Faça seu pedido / Reserve</h3>
+          <!-- Observação: formulário simples. Substitua action por endpoint real de envio ou configure integração com e-mail. -->
+          <form action="#" onsubmit="alert('Substitua o atributo action do formulário por um endpoint real ou conecte via e‑mail');return false;">
+            <label class="small">Nome</label>
+            <input type="text" placeholder="Seu nome" required />
+            <label class="small">Telefone</label>
+            <input type="tel" placeholder="(32) 9XXXX-XXXX" required />
+            <label class="small">Mensagem / Pedido</label>
+            <textarea rows="4" placeholder="Ex.: Reservar mesa para 4 às 12:30 / Pedido:..." required></textarea>
+            <button class="btn" type="submit">Enviar pedido</button>
+          </form>
+
+          <div style="margin-top:12px" class="small">Ou ligue para: <a href="#" id="phone-link-2">(32) 357****-****</a></div>
+          <div style="margin-top:8px" class="small">Horário: consulte no local</div>
+        </div>
+
+        <div style="margin-top:12px" class="info-card" id="local">
+          <h4>Como chegar</h4>
+          <p class="small">Clique abaixo para abrir no Google Maps.</p>
+          <!-- link para Google Maps com consulta de endereço; substitua se quiser coordenadas exatas -->
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Av.+Dr.+Jo%C3%A3o+Cataldo+Pinto+500+Tocantins+MG" target="_blank" rel="noopener">Abrir no Maps</a>
+        </div>
+      </aside>
+    </section>
+
+    <section style="margin-top:18px">
+      <div class="info-card">
+        <h4>Informações fiscais</h4>
+        <div class="small">Razão social: Restaurante Sabia LTDA — Tipo: Matriz — Natureza jurídica: Sociedade Empresária Limitada — Porte: Micro Empresa — Capital social: R$ 20.000,00</div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        © Restaurante Sabiá — CNPJ 42.846.162/0001-95 — Tocantins, MG
+      </div>
+    </footer>
+  </main>
+
+  <!-- JSON-LD LocalBusiness (atualize telefones e e‑mail) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Restaurante Sabiá",
+    "legalName": "Restaurante Sabia LTDA",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Dr. João Cataldo Pinto, 500, Loja 1",
+      "addressLocality": "Tocantins",
+      "addressRegion": "MG",
+      "postalCode": "36512-000"
+    },
+    "telephone": "(32) 357****-****",
+    "email": "es****@****.com.br",
+    "openingDate": "1992-07-08",
+    "vatID": "42.846.162/0001-95"
+  }
+  </script>
+
+  <script>
+    // Observação: substitua pelos telefones reais. Caso tenha o número completo, atualize o atributo href para tel:+5532XXXXXXXX
+    document.getElementById('phone-link').addEventListener('click',function(e){e.preventDefault();alert('Substitua este link pelo número de telefone real (tel:+55...) no HTML para habilitar click-to-call.');});
+    document.getElementById('phone-link-2').addEventListener('click',function(e){e.preventDefault();alert('Substitua este link pelo número de telefone real (tel:+55...) no HTML para habilitar click-to-call.');});
+  </script>
+</body>
+</html>
